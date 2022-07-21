@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body{
+    background-color:paleturquoise;
+    font-size: 16px;
+}
+
+h1:first-letter {
+   font-size: 2em;
+   color:cornflowerblue;
+}
+h1{
+    padding: 0.4em;
+    background-color:honeydew;
+    border-bottom: solid 10px #7db4e6;
+}
+
+h2{
+    padding: 0.4em 0.5em;
+    background-color: honeydew;
+    border-left: solid 5px #7db4e6;
+    border-bottom: solid 3px #d7d7d7;
+}
+
+h3 span{
+    border-bottom: 7px solid #7db4e6;
+}
+
+dt{
+    border-bottom: dashed 2px #7db4e6;
+}

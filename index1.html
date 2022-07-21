@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mayu HIDAKA">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <title>Homework1</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>GDP上位3カ国 おすすめ旅先</h1>
+    </header>
+    <div>
+        <p>国内総生産（GDP)は世界各国の経済状況を把握する指標の一つですが、2021年のGDPは、1位アメリカ、2位中国、3位日本でした。ここではこの3カ国のおすすめの旅先をご紹介します。</p>
+        
+        <canvas id="chart1" width="400" height="200"></canvas>
+
+        <h2>目次</h2>
+        <ol id="menu">
+            <li><a href="#USA">アメリカ合衆国</a></li>
+            <li><a href="#China">中国</a></li>
+            <li><a href="#Japan">日本</a></li>
+        </ol>
+
+    </div>
+
+    <div>
+        <img src="./images/christine-roy-ir5MHI6rPg0-unsplash.jpg" alt="world" width="600">
+    </div>
+
+    <div>
+        <h2 id="USA">1位 アメリカ合衆国</h2>
+        <img src="./images/ferdinand-stohr-nKg8IsVFMV8-unsplash.jpg" alt="USA" width="500">
+        <h3><span>2021年度 名目GDP・・・22,997.50 (10億USドル)</span></h3>
+
+        <ul>
+            <li>国土面積・・・9,834,000km2</li>
+            <li>人口・・・3億3290万人</li>
+            <li>首都・・・ワシントンDC</li>
+        </ul>
+        <h3><span>オススメの州3選</span></h3>
+        <dl>
+            <dt>カリフォルニア州</dt>
+            <dd>アメリカの西海岸に位置するカリフォルニアには、ディズニーランドやユニバーサルスタジオハリウッドがあり、様々なテーマパークを楽しむことができます。さらに、世界遺産のヨセミテ国立公園もあり、美しい大自然を眺めることができます。</dd>
+
+            <dt>ユタ州</dt>
+            <dd>自然を楽しみたい人にぴったりなのがユタ州です。なんとユタ州にはあーチーズ、ブライスキャニオン、キャニオンランズ、キャピトルリーフ、ザイオンの5大国立公園を回ることができます。アメリカならではの景色を見れること間違いなしの州です。</dd>
+
+            <dt>フロリダ州</dt>
+            <dd>フロリダにはなんといっても東京ディズニーランドおよそ239個分の広さを誇るディズニーワールドがあります。また、たくさんのビーチがあり、特にベアフットビーチやマイアミビーチは、海で楽しみたい人におすすめです。</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h2 id="China">2位 中国</h2>
+        <img src="./images/markus-winkler-aH5rE0JjP00-unsplash.jpg" alt="China" width="500">
+        <h3><span>2021年度 名目GDP・・・17,458.04 (10億USドル)</span></h3>
+
+        <ul>
+            <li>国土面積・・・9,597,000km2</li>
+            <li>人口・・・14億1260万人</li>
+            <li>首都・・・北京</li>
+        </ul>
+        <h3><span>オススメの場所3選</span></h3>
+        <dl>
+            <dt>万里の長城</dt>
+            <dd>中国のシンボルともいえる万里の長城は、世界文化遺産に指定されており、河北省、北京市、山西省などを含む16の市・自治区にまたがっています。一生のうちに一度でもその壮大な景色や歴史を実際に見に行ってはいかがでしょうか。</dd>
+
+            <dt>広州</dt>
+            <dd>広州は華南エイリア最大の都市であり、広州塔と呼ばれる夜のライトアップが綺麗な高さ600mもタワーが有名です。また、地下鉄を使うと中山紀念堂や越秀公園といった人気スポットにもアクセスしやすいため、様々な場所へ行くことができます</dd>
+
+            <dt>香港</dt>
+            <dd>香港では歴史背景から他の中国の都市とは違った雰囲気の文化を楽しむことができます。そのビルが立ち並ぶ景色は世界三大夜景の一つとしてよく知られています。さらに、夜景だけでなく中華グルメを楽しむことができるのでグルメな方におすすめです。</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h2 id="Japan">3位 日本</h2>
+        <img src="./images/david-edelstein-N4DbvTUDikw-unsplash.jpg" alt="Japan" width="500">
+        <h3><span>2021年度 名目GDP・・・4,225.92 (10億USドル)</span></h3>
+        <ul>
+            <li>国土面積・・・378,000km2</li>
+            <li>人口・・・1億2550万人</li>
+            <li>首都・・・東京</li>
+        </ul>
+        <h3><span>オススメの都市3選</span></h3>
+        <dl>
+            <dt>東京都</dt>
+            <dd>東京では、日本ならではの神社がある浅草から新宿・渋谷っといった都会まで幅広く楽しむことができます。面積も広すぎず、1日でたくさんの場所を回ることができるのもお勧めする理由の一つなので飽きること間違いなしの都市です。</dt>
+            
+            <dt>函館市</dt>
+            <dd>北海道の函館市は日本の人気観光スポットの一つであり、赤レンガ倉庫やはこだて明治館といった歴史を語る建物があります。また、なんといっても夜景が綺麗で、函館山からは海と都市を一望することができます。</dd>
+
+            <dt>京都</dt>
+            <dd>外国人観光客からも人気な京都では、古き良き日本の風景を眺めたり、和食を楽しむことができます。清水寺や東寺、金閣寺と誰もが知る歴史的建造物を回ることができるので、是非訪れてみてはいかがでしょうか。</dd>
+        </dl>
+    </div>
+    <br>
+
+    <div>
+        <h2>最後に</h2>
+        <p>いかがだったでしょうか？今回はGDO上位3カ国のおすすめの旅先を少し紹介させていただきました。他にも紹介して欲しいジャンルや要望があれば下の意見ボックスからお願いします。</p>
+    </div>
+    
+    <div>
+        <label for="requests">意見Box:</label>
+        <textarea name="requests" id="requests" cols="30" rows="5"></textarea>
+        <input type="submit" value="送信">
+        <input type="reset" value="リセット">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js" integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/chart.js"></script>
+    
+</body>
+
+</html>
